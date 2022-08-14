@@ -55,7 +55,7 @@
             classList[Math.floor(Math.random() * classList.length)];
         const randomRaceAndClass = randomRace.concat(" ", randomClass);
         document.getElementById("textrace").innerHTML = randomRaceAndClass;
-        var newSrc = "./imgs/" + randomRace + "_" + randomClass + ".jpg";
+        var newSrc = "/imgs/" + randomRace + "_" + randomClass + ".jpg";
         console.log(newSrc.toLowerCase());
         document.getElementById("pcImagen").src = newSrc.toLowerCase();
         document.getElementById("descripcion").innerHTML = "";
